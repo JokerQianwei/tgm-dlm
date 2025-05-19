@@ -2,3 +2,5 @@
 scibert/flax_model.msgpack
 scibert/pytorch_model.bin
 *.pt
+improved-diffusion/improved_diffusion/__pycache__
+*.pyc
