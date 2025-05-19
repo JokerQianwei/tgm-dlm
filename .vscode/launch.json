@@ -8,7 +8,7 @@
             "program": "${workspaceFolder}/improved-diffusion/scripts/process_text.py",
             "args": ["-i", "train_val_256"],
             "console": "integratedTerminal",
-            "justMyCode": false,
+            "justMyCode": true,
             "cwd": "${workspaceFolder}/improved-diffusion/scripts",
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"
@@ -24,7 +24,7 @@
             "program": "${workspaceFolder}/improved-diffusion/scripts/train.py",
             "args": [],
             "console": "integratedTerminal",
-            "justMyCode": false,
+            "justMyCode": true,
             "cwd": "${workspaceFolder}/improved-diffusion/scripts",
             "env": {
                 "PYTHONPATH": "${workspaceFolder}",
