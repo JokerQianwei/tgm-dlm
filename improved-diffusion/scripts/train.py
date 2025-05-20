@@ -1,5 +1,5 @@
 """
-Train a diffusion model on images. Phase One
+Train a diffusion model on images.
 """
 
 import argparse
@@ -35,10 +35,10 @@ def main_worker(rank,world_size):
     set_seed(args.seed)
 
     if rank == 0:
-        import os
-        os.environ['WANDB__SERVICE_VERIFY_SSL'] = 'false'
-        import wandb
-        wandb.init(project='DiffusionLMRegexAug', config=args.__dict__)
+        wandb.init(
+            project = "DiffusionLMRegexAug",
+            config = args.__dict__,
+        )
         print(wandb.config)
 
 
