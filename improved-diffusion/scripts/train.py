@@ -60,7 +60,7 @@ def main_worker(rank,world_size):
         model_channels=args.model_model_channels,
         dropout=args.model_dropout,
         use_checkpoint=False,
-        config_name='bert-base-uncased',
+        config_name='../../bert-base-uncased',  # 使用本地路径而非huggingface.co的模型名
         training_mode='e2e',
         vocab_size=len(smtokenizer),
         experiment_mode='lm',
