@@ -23,3 +23,4 @@ var/
 scibert/flax_model.msgpack
 scibert/pytorch_model.bin
 *.pt
+wandb
