@@ -1,5 +1,5 @@
 """
-Train a diffusion model on images. Phase One
+Train a diffusion model on images. Phase One 1
 """
 
 import argparse
